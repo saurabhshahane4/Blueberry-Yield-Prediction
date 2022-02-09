@@ -25,7 +25,7 @@ import joblib
 #
 # print(X_test.head())
 
-df = pd.read_csv('BankNote_Authentication.csv')
+df = pd.read_csv(csv_file)
 df.head()
 
 X = df.drop(columns=['class'])
